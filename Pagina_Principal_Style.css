@@ -1,0 +1,19 @@
+ul {
+  margin: 2px;
+  padding-left: 10%;
+}
+
+li {
+  color: #000000;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 15px; 
+  border: 1px solid #000000;
+}
+
+.block{
+  display: block;
+}
+#especial{
+  display: flex;
+}
