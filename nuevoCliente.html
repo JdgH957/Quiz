@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo Cliente</title>
+    <link rel="stylesheet" href="nuevoCliente_style.css">
+</head>
+<body>
+    <!--NAVBAR-->
+
+    
+
+    <div class="body">
+        <table width="100%" border="1" cellspacing="0" cellpadding="0">
+            <tr id="navbar">
+                <td id=""><p></p></td>
+                <td id="inicio" onclick="location.href='Pagina_Principal.html'" style="cursor:pointer"><p>INICIO</p></td>
+                <td id="nuevoCliente" onclick="location.href='nuevoCliente.html'" style="cursor:pointer"><p>NUEVO CLIENTE</p></td>
+                <td id=""><p></p></td>
+                <td id=""><p></p></td>
+            </tr>
+            <tr>
+            <td rowspan="2" id="lateralI"><p></p></td>
+            <td colspan="3" id="titulo"><p>NUEVO CLIENTE</p></td>
+            <td rowspan="2" id="lateralD"><p></p></td>
+            </tr>
+            <tr>
+            <td colspan="3" id="tablita">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td id="columna"><p><b>NUMERO DOCUMENTO:</b></p></td>
+                        <td id="columnaR"><form action=""><input type="text" name="identificacion"><br></form></td>
+                    </tr>
+                    <tr>
+                        <td id="columna"><p><b>NOMBRES:</b></p></td>
+                        <td id="columnaR"><form action=""><input type="text" name="nombre"><br></form></td>
+                    </tr>
+                    <tr>
+                        <td id="columna"><p><b>APELLIDOS:</b></p></td>
+                        <td id="columnaR"><form action=""><input type="text" name="apellidos"><br></form></td>
+                    </tr>
+                    <tr id="columna_">
+                        <td colspan="2"><form action=""><input id="boton" type="submit" value="GUARDAR" /></form></td>
+                    </tr>
+                </table>
+            </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

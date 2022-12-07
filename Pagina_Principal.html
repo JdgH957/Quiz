@@ -10,16 +10,55 @@
 </head>
 <body>
     <!--NAVBAR-->
-
-    <div class="block">
-        <ul>
-            <li id="liIzquierda"><a>INICIO</a></li>
-            <li id="liIzquierda"><a>NUEVO CLIENTE</a></li>
-        </ul>
+    <div class="body">
+        <table width="100%" border="1" cellspacing="0" cellpadding="0">
+            <tr id="navbar">
+                <td id=""><p></p></td>
+                <td id="inicio" onclick="location.href='Pagina_Principal.html'" style="cursor:pointer"><p>INICIO</p></td>
+                <td id="nuevoCliente" onclick="location.href='nuevoCliente.html'" style="cursor:pointer"><p>NUEVO CLIENTE</p></td>
+                <td id=""><p></p></td>
+                <td id=""><p></p></td>
+            </tr>
+            <tr>
+            <td rowspan="2" id="lateralI"><p></p></td>
+            <td colspan="3" id="titulo"><p>LISTA CLIENTES</p></td>
+            <td rowspan="2" id="lateralD"><p></p></td>
+            </tr>
+            <tr>
+            <td colspan="3" id="tablita">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    <tr id="columna" >
+                        <td><p>DOCUMENT0</p></td>
+                        <td><p>NOMBRES</p></td>
+                        <td><p>APELLIDOS</p></td>
+                        <td colspan="2"><p>ACCIONES</p></td>
+                    </tr>
+                    <tr id="columna">
+                        <td><p>1092655832</p></td>
+                        <td><p>SARA</p></td>
+                        <td><p>GUTIERREZ</p></td>
+                        <td><form action="detalleCliente.html"><input id="boton" type="submit" value="DETALLES" /></form>
+                        </td>
+                        <td><form><input id="boton" type="submit" value="ELIMINAR" /></form></td>
+                    </tr>
+                    <tr id="columna">
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr id="columna">
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                </table>
+            </td>
+            </tr>
+            </table>
     </div>
-
-<div>
-    
-</div>
 </body>
 </html>

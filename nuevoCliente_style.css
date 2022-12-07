@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  #lateralI{
+    padding-bottom: 86vh;
+    width: 10vw;
+  }
+  
+  #lateralD{
+    padding-bottom: 86vh;
+    width: 10vw;
+  }
+  #navbar{
+    background: white;
+    color: black;
+    
+  }
+  
+  #navbar td{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    vertical-align: middle;
+    line-height: normal;
+    text-align: center;
+    border: 0px;
+  }
+  
+  #inicio{
+    width: 10%;
+  }
+  #inicio:hover{
+    color: white;
+    background-color: black;
+  }
+  #nuevoCliente{
+    width: 10%;
+  }
+  #nuevoCliente:hover{
+    color: white;
+    background-color: black;
+  }
+  
+  #titulo{
+    color: white;
+    background-color: black;
+    height: 15vh;
+    text-align: center;
+    font-size: 25px;
+  } 
+  #columna{
+    width: 23vw;
+    height: 12vh;
+    font-size: 26px;
+    padding-left: 4vw;
+  }
+  #columnaR{
+    width: 26vw;
+    height: 12vh;
+    padding-left: 1vw;
+  }
+  #columna_ td{
+    width: 60vw;
+    height: 12vh;
+    text-align: center;
+  }
+#boton{
+    width: 40vw;
+    height: 10vh;
+}
+input{
+    width: 20vw;
+    height: 5vh;
+}
+#tablita{
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
