@@ -49,21 +49,52 @@
     text-align: center;
     font-size: 25px;
   } 
+  #columnaS{
+    width: 23vw;
+    height: 12vh;
+    font-size: 26px;
+    padding-left: 4vw;
+    border-top: 1px solid black;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-left: 1px solid black;
+  }
   #columna{
     width: 23vw;
     height: 12vh;
     font-size: 26px;
     padding-left: 4vw;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-left: 1px solid black; 
+  }
+  #columnaRS{
+    width: 26vw;
+    height: 12vh;
+    padding-left: 1vw;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 0px;
+    border-left: 0px; 
   }
   #columnaR{
     width: 26vw;
     height: 12vh;
     padding-left: 1vw;
+    border-top: 0px;
+    border-right: 1px solid black;
+    border-bottom: 0px;
+    border-left: 0px; 
   }
   #columna_ td{
     width: 60vw;
     height: 12vh;
     text-align: center;
+    border-top: 0px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
   }
 #boton{
     width: 40vw;

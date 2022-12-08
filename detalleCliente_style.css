@@ -49,18 +49,47 @@
     text-align: center;
     font-size: 25px;
   } 
-  #columna{
+  #columnaIS{
     width: 26vw;
     height: 12vh;
     font-size: 26px;
     padding-left: 4vw;
+    border-top: 1px solid black;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-left: 1px solid black;  
+  }
+  #columnaI{
+    width: 26vw;
+    height: 12vh;
+    font-size: 26px;
+    padding-left: 4vw;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-left: 1px solid black;  
   }
   #columnaf{
     width: 26vw;
     height: 12vh;
     font-size: 26px;
     padding-left: 4vw;
-    padding-bottom: 14vh;   
+    padding-bottom: 14vh; 
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;  
+  }
+  #columnaRS{
+    width: 18vw;
+    height: 12vh;
+    padding-right: 12vw;
+    font-size: 26px;
+    text-align: right;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 0px;
+    border-left: 0px; 
   }
   #columnaR{
     width: 18vw;
@@ -68,6 +97,10 @@
     padding-right: 12vw;
     font-size: 26px;
     text-align: right;
+    border-top: 0px;
+    border-right: 1px solid black;
+    border-bottom: 0px;
+    border-left: 0px; 
   }
   #columnaRf{
     width: 18vw;
@@ -76,6 +109,10 @@
     font-size: 26px;
     text-align: right;
     padding-bottom: 14vh;
+    border-top: 0px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 0px;
   }
   #tablita{
     padding-left: 10vw;
